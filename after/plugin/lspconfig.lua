@@ -38,7 +38,7 @@ local lsp_flags = {
 }
 
 local nvim_lsp = require('lspconfig')
-local servers = { 'gopls' }
+local servers = { 'gopls', 'phpactor', 'pyright'}
 
 for _, lsp in ipairs(servers) do
     -- setup lsp servers
