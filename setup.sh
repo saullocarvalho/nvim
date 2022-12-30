@@ -31,3 +31,6 @@ cd ../..
 
 # Install pyright
 sudo npm i -g pyright
+
+# Install solc
+sudo npm i -g solc
