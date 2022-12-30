@@ -1,3 +1,10 @@
+# Add neovim 0.7+ package repository
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:neovim-ppa/stable
+
+# Add solc repository
+sudo add-apt-repository ppa:ethereum/ethereum
+
 # Install main packages
 sudo apt update \
     && sudo apt install -y \
@@ -5,7 +12,9 @@ sudo apt update \
             git \
             php-cli \
             unzip \
-            curl
+            curl \
+            neovim \
+            solc
 
 # Create repos directory
 mkdir -p repos
