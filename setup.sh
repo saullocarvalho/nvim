@@ -1,9 +1,9 @@
 # Add neovim 0.7+ package repository
 sudo apt install software-properties-common
-sudo add-apt-repository ppa:neovim-ppa/stable
+sudo add-apt-repository ppa:neovim-ppa/stable -y
 
 # Add solc repository
-sudo add-apt-repository ppa:ethereum/ethereum
+sudo add-apt-repository ppa:ethereum/ethereum -y
 
 # Install main packages
 sudo apt update \
@@ -14,6 +14,7 @@ sudo apt update \
             unzip \
             curl \
             neovim \
+            npm \
             solc
 
 # Create repos directory
